@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Style*/
+
+body{
+	font: 16px/28px arial,sans-serif;
+	background-color: #eaeaea;
+	background-image: url(images/paper_2.png);
+	color: #333;
+}
+.container {
+	width: 980px;
+	margin: auto;
+	border: 2px solid #000000;
+	background-color: #fff;
+}
+.header{
+	height: 80px;
+	padding: 20px;
+	padding-bottom: 0px;
+	background-color: #333;
+}
+.header .judul{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+
+}
+.nav ul{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #666;
+}
+.nav li{
+	float: left;
+}
+.nav li{
+  	float: left;
+}
+.nav li :last-child{
+  	border-right: none;
+}
+.nav li a{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 8px 16px;
+  	text-decoration: none;
+}
+.nav li a:hover{
+  	background-color: #4CAF50;
+}
+.nav .active{
+  	background-color: #4CAF50;
+}
+.hero {
+	height: 300px;
+	background-image: url(../images/curug-omas.jpg);
+	background-size: cover;
+	background-position: 0 0;
+}
+.main{
+	width: 650px;
+	padding: 20px;
+	border-right: 1px solid #eeeeee;
+	box-sizing: border-box;
+	float: left;
+}
+.main h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+.main .penulis{
+	font-size: 11px;
+	margin-top: -5px
+}
+.main .penulis  a {
+	color: salmon;
+	text-decoration: none;
+}
+.main img {
+	width: 179px;
+	height: 170px;
+	float: left;
+	padding-right: 10px;
+}
+.main p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.sidebar{
+	width: 290px;
+	padding: 20px;
+	float: right;
+}
+.sidebar a {
+	font: 14px/18px arial;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #eeeeee;
+	color: #666;
+	text-decoration: none;
+}
+.sidebar h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+.sidebar a:hover {
+	color: #985d6a;
+	background-color: #efefef;
+}
+.footer{
+	background-color: #333;
+	padding: 8px;
+}
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
