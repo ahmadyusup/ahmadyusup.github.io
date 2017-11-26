@@ -44,3 +44,29 @@ $(document).ready(function() {
 		nav.toggleClass('open');
 	});
 });
+
+//lightcase
+;(function ($) {
+	$(function () {
+		$('a[data-rel^=lightcase]').lightcase();
+		$('a[data-rel="lightcase:myCollection:slideshow"]').lightcase({
+			showSequenceInfo: false,
+			transition: 'scrollHorizontal',
+			transitionOpen: 'elastic',
+			transitionClose: 'elastic'
+		});
+		$('a[data-rel="lightcase:myCollection"]').lightcase({showSequenceInfo: false});
+
+		$('#example1').lightcase({transition: 'none'});
+		$('#example2').lightcase({transition: 'fade'});
+		$('#example3').lightcase({transition: 'elastic'});
+		$('#example4').lightcase({transition: 'scrollTop'});
+		$('#example5').lightcase({transition: 'scrollLeft'});
+		$('#example6').lightcase({transition: 'scrollRight'});
+		$('#example7').lightcase({transition: 'scrollBottom'});
+		$('a[data-rel="lightcase:scrollHor"]').lightcase({
+			showSequenceInfo: false,
+			transition: 'scrollHorizontal'
+		});
+	});
+})(jQuery);
