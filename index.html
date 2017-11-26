@@ -13,7 +13,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/lightcase/2.4.2/css/lightcase.css" >
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
@@ -41,13 +42,12 @@
 				<div class="col-md-10 col-md-offset-1">
 				<div class="banner-text text-center">
 					<h1>Asia Afrika</h1>
-					<nav role="navigation"> <a href="#" class="banner-btn"><img src="image/down-arrow.png" alt=""></a></nav>
+					<nav role="navigation"></nav>
 				</div>
 				</div>
 			</div>
 		</div>
 		</section>
-		
 		
 		<!-- Section About -->
 		<section id="tentang" class="expert">
@@ -55,7 +55,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="tentang-image wow fadeInLeft">
-							<img src="img/image1.jpg" alt="Image" />
+						<a href="img/image1.jpg" data-rel="lightcase"><img src="img/image1.jpg" alt="Image" /></a>	
 						</div>
 					</div>
 					<div class="col-sm-6 md">
@@ -72,8 +72,8 @@
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-sm-12">
-							<span>Watch showreel</span>
-							<a href="https://www.youtube.com/watch?v=oMIENcW6QM0"><i class="fa fa-play-circle fa-3x" aria-hidden="true"></i></a>
+							<span>Watch showreel</span>					
+							<a href="https://www.youtube.com/embed/3Q7Uims7wlw" data-rel="lightcase"><i class="fa fa-play-circle fa-3x" aria-hidden="true"></i></a>
 							<span>with us</span>
 						</div>
 					</div>
@@ -94,97 +94,29 @@
 				</div>
 			</div>
 			
-			<div class="featured-list">
-				<div id="grid" class="clearfix">
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img1.jpg" alt="Feature Image" />
+			<div class="row">
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="img/img1.jpg" id="example4" class="showcase" data-rel="lightcase:myCollection:slideshow">
+						  <img src="img/img1.jpg" alt="Lights" style="width:100%">
 						</a>
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-						
+					  </div>
 					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img2.jpg" alt="Feature Image" />
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="img/img2.jpg" id="example7" class="showcase" data-rel="lightcase:myCollection:slideshow">
+						  <img src="img/img2.jpg" alt="Nature" style="width:100%">
 						</a>
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
+					  </div>
 					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img3.jpg" alt="Feature Image" />
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="img/img3.jpg"data-rel="lightcase:myCollection:slideshow">
+						  <img src="img/img3.jpg" alt="Fjords" style="width:100%">
 						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
+					  </div>
 					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img4.jpg" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img5.jpg" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img6.jpg" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/img7.jpg" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/header.jpg" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				  </div>
 		</section>
 		
 		<!-- Section Gallery -->		
@@ -531,6 +463,10 @@
 		<!-- footer -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/lightcase/2.4.2/js/lightcase.js" ></script>
+		<script type = "text/javascript" src = "http://cornel.bopp-art.com/lightcase/project/js/lightcase.init.js" ></script>
 		<script src="js/style.js"></script>
 		<script src="js/jquery.flexslider-min.js"></script>
 		<script src="js/jquery.fancybox.pack.js"></script>
