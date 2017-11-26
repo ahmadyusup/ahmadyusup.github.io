@@ -7,13 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
 		
-		<!-- Font -->
+		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
@@ -23,63 +23,72 @@
     </head>
     <body id="home">
 		<section class="banner" role="banner">
-			<!--header navigation -->
+			<div class="overlay">
 			<header id="header">
-			  <div class="header-content clearfix"> <a class="logo" href="#home"><img src="img/logo.png" alt="" style="width:150px; margin-top: -10px;"></a>
+				<div class="header-content clearfix"> <a class="logo" href="#home"><img src="img/logo.png" alt="" style="width:150px; margin-top: -10px;"></a>
 				<nav class="navigation" role="navigation">
-				  <ul class="primary-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#destinasi">Destinasi</a></li>
-					<li><a href="#galeri">Gallery</a></li>
-					<li><a href="#event">Event</a></li>
-					<li><a href="#contact">Contact</a></li>
-				  </ul>
+					<ul class="primary-nav">
+						<li class="active"><a href="#home">Beranda</a></li>
+						<li><a href="#tentang">Tentang</a></li>
+						<li><a href="#galeri">Galeri</a></li>
+						<li><a href="#berita">Berita</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</nav>
 				<a href="#" class="nav-toggle">Menu<span></span></a> </div>
 			</header>
-			<!--header navigation -->
-			<!-- banner text -->
 			<div class="container">
-			  <div class="col-md-10 col-md-offset-1">
+				<div class="col-md-10 col-md-offset-1">
 				<div class="banner-text text-center">
-				  <h1>Asia Afrika</h1>
-				  <nav role="navigation"> <a href="#" class="banner-btn"><img src="image/down-arrow.png" alt=""></a></nav>
+					<h1>Asia Afrika</h1>
+					<nav role="navigation"> <a href="#" class="banner-btn"><img src="image/down-arrow.png" alt=""></a></nav>
 				</div>
-				<!-- banner text -->
-			  </div>
+				</div>
 			</div>
-		  </section>
+		</div>
+		</section>
 		
 		
-		<!-- tentang Section -->
-		<section id="destinasi" class="site-padding">
-			<div class="container">
+		<!-- Section About -->
+		<section id="tentang" class="expert">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="tentang-image wow fadeInLeft">
-							<img src="img/image.jpg" alt="tentang Image" />
+							<img src="img/image1.jpg" alt="Image" />
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6 md">
 						<div class="tentang-text wow fadeInRight">
 							<h3>Tentang Asia Afrika Bandung</h3>
 							<p>JALAN Asia Afrika sudah terkenal di seantero dunia. Maklum jalan ini merupakan tempat berdirinya Gedung Merdeka yang sarat menyimpan sejarah negara-negara Asia Afrika. Di gedung inilah konferesi Asia Afrika berlangsung pada 18 April-24 April 1955 yang menggugah para pemimpin kawasan ini dengan menelorkan Dasasila Bandung.</p>
-							<a href="tentang.html" class="btn btn-read-more">Read More</a>
+							<a href="about.html" class="btn btn-read-more">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- tentang Section -->
+		<section class="watch bg-img">
+				<div class="container text-center">
+					<div class="row">
+						<div class="col-sm-12">
+							<span>Watch showreel</span>
+							<a href="https://www.youtube.com/watch?v=oMIENcW6QM0"><i class="fa fa-play-circle fa-3x" aria-hidden="true"></i></a>
+							<span>with us</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- Section About -->
 		
-		<!-- Featured Work -->
+		<!-- Section Gallery -->
 		
-		<section id="galeri" class="protfolio-padding">
+		<section id="galeri" class="section">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="title">
-							<h3><span>Galeri</span></h3>
+							<h3>Galeri</h3>
 						</div>
 					</div>
 				</div>
@@ -92,7 +101,6 @@
 						<a href="#">
 							<img src="img/img1.jpg" alt="Feature Image" />
 						</a>
-						
 						<div class="thumb-rollover">
 							<div class="project-title">
 							</div>
@@ -167,7 +175,7 @@
 					
 					<div class="thumb">
 						<a href="#">
-							<img src="img/img8.jpg" alt="Feature Image" />
+							<img src="img/header.jpg" alt="Feature Image" />
 						</a>
 						
 						<div class="thumb-rollover">
@@ -175,74 +183,277 @@
 							</div>
 						</div>
 					</div>
-					
-					
 				</div>
 			</div>
-			
-			
 		</section>
 		
-		<!-- Featured Work -->		
+		<!-- Section Gallery -->		
 		
-		<!-- From the event-->
+		<!-- Section berita-->
 		
-		<section id="event" class="site-padding">
+		<section id="berita" class="section">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="title">
-							<h3>Bandung <span>Event</span></h3>
+							<h3>Berita</h3>
 						</div>
 					</div>
 				</div>
-				
-				<div class="row">
-				
-					<!-- Single event -->
-					<div class="col-sm-4">
-						<div class="single-event">
-							<img src="img/img4.jpg" alt="event Image" />
-							<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-							<a href="#">Read More>></a>
+				<!-- Modal -->
+				<div id="berita1" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Bandung Light Fest 2017</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/1.jpg" alt="">
+						<p>Kota Bandung tidak henti-hentinya berkreasi. Contohnya dengan menggelar Bandung Lightfest 2017. Festival Cahaya dan parade kendaraan hias yang sudah memasuki tahun ketiga ini mengangkat sebuah tema Undersea atau hewan di bawah laut. Tema ini akan dikreasikan semenarik mungkin oleh para peserta ke dalam kendaraan hias. Parade kendaraan hias tersebut direncanakan akan melewati rute jalan-jalan protokol di kota Bandung. Meliputi Jl.Diponegoro, Jl.Surapati, Jl.Ahmad Yani, Jl.Pelajar Pejuang, Jl.Astana Anyar, Jl.Pasir Kaliki, Jl.Pajajaran, Jl.Cihampelas, Jl.Cikapayang, Jl.Dago, Jl.Merdeka, Jl.Lembong, Jl.Tambong, dan berakhir di Jl.Asia Afrika.<br>
+							Bentuk Kegiatan<br>
+							<ul>
+								<li>Perlombaan Karnaval Kendaraan Hias</li>
+								<li>Sambutan dari Walikota Bandung</li>
+								<li>Hiburan Kesenian Tradisional</li>
+								<li>Hiburan Artis Lokal dan Nasional</li>
+							</ul>
+						</p>
 						</div>
 					</div>
-					<!-- Single event -->
-					
-					<!-- Single event -->
-					<div class="col-sm-4">
-						<div class="single-event">
-							<img src="img/img9.jpg" alt="event Image" />
-							<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-							<a href="#">Read More>></a>
-						</div>
 					</div>
-					<!-- Single event -->
-					
-					<!-- Single event -->
-					<div class="col-sm-4">
-						<div class="single-event">
-							<img src="img/img5.jpg" alt="event Image" />
-							<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-							<a href="#">Read More>></a>
-						</div>
-					</div>
-					<!-- Single event -->
-					
-					
 				</div>
-				
-			</div>
+				<!-- Akhir Modal -->
+				<!-- Modal -->
+				<div id="berita2" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">BOTRAM 2017</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/2.jpg" alt="">
+						<p>Wargi kuningan yang sedang berada dikota bandung ataupun wisatawan yang sedang dibandung sepertinya wajib datang ke acara BOTRAM 2017. Karena diacara ini nantinya akan diikuti oleh 110 moko ( mobil toko ) daihatsu yang berbaris disepanjang jalan asia afrika kota bandung.<br>
+							Lalu apa itu BOTRAM 2017 ?<br>
+							BOTRAM sendiri adalah singkatan dari Bandung Oto Trade Market. Dimana acara ini digagas atas kerjasama antara Pemerintah Kota Bandung dengan Daihatsu yang mengadakan acara festival bisnis. Dan acaranya diberi nama BOTRAM yang akan digelar pada 23-24 september 2017. Dimana acara ini diselenggarakan dalam rangka merayakan hari ulang tahun kota bandung yang ke 207 tahun. Sekaligus bentuk apresiasi dari Daihatsu dalam merayakan ulang tahunnya yang ke 110 tahun.<br>
+							Acara BOTRAM tersebut diikuti oleh 110 granmax moko. Gran Max (Moko) adalah modifikasi dari gran max standar. Sehingga beralih fungsi menjadi mirip “toko” dan tentunya sangat cocok untuk mendukung kegiatan usaha. Dalam acara ini akan tampil berbagai bentuk gran max (moko) yang akan menyediakan berbagai macam sajian kuliner, fashion serta berbagai macam toko industri kreatif lainnya.<br>							
+							Kehadiran 110 unit “moko” dalam acara BOTRAM 2017 tersebut menjadi bukti paling nyata bahwa gran max merupakan sahabat bisnis yang dapat diandalkan. Gran max sangat cocok untuk pengusaha indonesia sebagai partner “sahabat bisnis”, dan menjadi bukti bahwa gran max cocok serta handal digunakan dalam berbagai macam usaha.<br>
+							<span>Suasana Konferensi Pers<br></span>
+							<img src="img/pers.jpg" alt="">
+							Dalam suasana konferensi pers yang digelar di pendopo walikota bandung (18/07/2017). Dalam sambutannya Shinya Takeda selaku corporate planning & communication director PT. Astra Daihatsu Motor mengungkapkan, bahwa pihaknya akan menampilkan 110 Mobil Toko yang nantinya akan memanjakan para pengunjung. Dimana mobil tersebut akan menjajakan berbagai kuliner, fashion dan industri kreatif lainnya.<br>								
+							Sedangkan wakil walikota bandung, yakni M Oded mengungkapkan bahwa, pihaknya walikota bandung dan pemkot bandung sangat mendukung adanya acara BOTRAM with Daihatsu. Terlebih lagi acara ini sekaligus merayakan ulang tahun kota bandung yang ke 207 dan juga merayakan ulang tahun daihatsu yang ke 110.<br>
+							Selain itu, menurut Oded acara ini juga sangat bagus karena memfasilitasi para pedagang untuk menjajakan dagangannya disini. Yang terpenting menurut oded, acara ini harus bisa menjaga ketertiban dan kelancaran lalu lintas kota bandung. Khususnya sepanjang jalan asia afrika. Dan jangan sampai setelah acara banyak sampah menumpuk di jalan. Terang Oded dalam sambutannya Senin (18/09/2017).<br>
+							Sedangkan dalam sambutannya ketika konferensi pers. Hendrayadi Lastiyoso selaku Marketing & customer relation division head PT. Astra Internasional TBK mengungkapkan, bahwa dengan adanya acara BOTRAM 2017 ini semoga kota bandung dan daihatsu kedepannya semakin berkembang dan bisa memberikan yang terbaik buat masyarakat.<br>
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+				<!-- Akhir Modal -->
+				<!-- Modal -->
+				<div id="berita3" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">CFN Asia Afrika Hari Ini. Jalan Dalem Kaum Ditutup, Cikapundung Barat Jadi Area PKL</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/3.jpg" alt="">
+						<p>Sepanjang Jalan Dalem Kaum akan ditutup bagi arus lalu lintas selama gelaran uji coba kedua Car Free Night-Car Free Day (CFN-CFD) Asia Afrika pada Sabtu (30/5/2015). Kegiatan CFN-CFD Asia Afrika edisi kedua ini, rencananya akan dimulai pukul 18.00 hingga pukul 11.00 keesokan harinya.
+								
+							<br>Dikutip dari Harian Umum Pikiran Rakyat, Kepala Bidang Lalu Lintas dan Parkir Dishub Kota Bandung, Agung Purnomo mengatakan, jika penutupan Jalan Dalem Kaum merupakan salah satu hasil evaluasi penyelenggaraan uji coba CFN-CFD pertama. Dengan menambahnya lokasi parkir, diharapkan tidak terjadi kemacetan panjang di sekitar kawasan Asia Afrika.
+						
+							<br>“Kami akan jadikan Dalem Kaum sepenuhnya lokasi parkir kendaraan, terutama mobil. Ada rencana untuk menutup juga Jalan ABC dari Banceuy menuju Braga, tetapi belum akan kami terapkan besok (hari ini). Barangkali dalam uji coba berikutnya,” kata Agung.
+						
+							<br>Dengan ditutupnya Jalan Dalem Kaum, arus kendaraan dari Dewi Sartika akan diarahkan menuju Alun-alun Timur dan Asia Afrika.
+						
+							<br>Selain menutup Jalan Dalem Kaum, uji coba kedua juga akan menjadikan Jalan Cikapundung Barat sebagai arela bagi para pedagang kaki lima. Belum dipastikan berapa jumlah pedagang yang akan tertampug.
+						
+							<br>Sementara itu, untuk mengantisipasi sampah, PD Kebersihan akan menambah jumlah kontainer sampah yang sebelumnya 4 unit, menjadi 15 unit kontainer.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+				<!-- Akhir Modal -->
+				<!-- Modal -->
+				<div id="berita4" class="modal fade" role="dialog">
+						<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Asia Afrika Carnival Jadi Angenda Tahunan di Bandung</h4>
+							</div>
+							<div class="modal-body">
+								<img src="img/4.jpg" alt="">
+							<p>JAKARTA (Pos Kota) – Asia Afrika Carnaval yang digelar di kota Bandung Sabtu (25/4)  menjadi annual event carnival (agenda tahunan) bagi Bandung.
+									
+								<br>Hal ini diungkapkan Menteri Pariwisata Arief Yahya di sela-sela acara tersebut di Alun-alun Bandung, Sabtu (25/4).
+								
+								<br>“Bandung sudah ditetapkan sebagai ibukota negara Asia Afrika. Dan yang punya ini hanya Bandung. Dan kita kasih list ini menjadi even tahunan. Dan hanya Bandung yang bisa melakukan annual internasional event ini,” katanya.
+								
+								<br>Dari acara ini, Arief berharap  bisa meng attrack (tarik) orang -orang dari Asia Afrika. “Sekarang saja ini baru 20 negara lain dari total 60. It list bagus dari seluruhnya. Dari Indonesia kita undang dan dari Asia kita undang. Untuk persiapan 1 tahun kita patok saja tanggalnya 24 April, acara puncaknya ditahun depan,” lanjutnya.
+								
+								<br>Pada perheletatan KAA yang dipimpin pemimpin Asia Afrika 19-24 April yaitu acara political leader, melakukan estorikal world itu 10 tahun sekali.  Setelah itu adalah culture leader ambasador of caltural  (perwakilan budaya) boleh melakukan setiap tahun.  Bahkan Orang Bandung boleh melalukan estorikal world setiap hari. Jadi sangat Bandung dianggap Menpar sangat beruntung.
+								
+								<br>Arief mengungkapkan saat ini kata-kata untuk Bandung adalah merinding terharu dan sangat mempesona.  “Inilah wonderful Bandung yang tidak kalah dengan lainnya. Dan ini tidak bisa dimiliki oleh tempat-tempat lainnya. Dan event ini hanya Bandung yang punya yang bisa melakukan Asean Africa Carnival. Karena tidak bisa diulang lagi. Event tahun 1955 lah yang bisa membuat seperti ini.
+								
+								<br>Dan nanti karnivalnya harus dinilai siap yang lebih baik juaranya diantara peserta global Asia Africa ataupun dalam negeri,” ujarnya.
+								
+								<br>Untuk KAA sendiri pariwisatanya berpengaruh dari wisatawan nusantaranya saja 100 ribu widges (mendapatakan)  Rp 1 triliun uang mengalir dan jumlah wisatawan mancanegaranya 2500 sekitar Rp135 miliar.
+								
+								<br>Arief Yahya menekan akan pengaruh yang disebabkan dari acara ini adalah Media Value (nilai media). “Tapi yang terbesar adalah media valuenya. Media velue dari event ini lebih dari Rp 1 triliun. Tapi dalam 1 minggu ini Bandung jadi tranding topic dimanapun didunia. Kemarin di China hampir seluruh media onlin di China itu memuat tentang Bandung . Dan yang lucu itu Bandung lautan angklung itu menjadi sangat membahana bagi seluruh dunia. Tapi point terbesar media valuenya tinggi. Media value itu bagus untuk branding kota Bandung tidak hanya kita dapatkan untuk sekarang tapi juga yang akan datang,” katanya.
+								
+								<br>Sementara itu Ridwan Kamil Walikota Bandung mengatakan momen ini menjadi revolusi mental bagi masyarakat Bandung.
+								
+								<br>“Untuk perhelatan pertama luar biasa saya sangat terharu susah diceritakan dengan kata kata. Tadi relawan dibuntutnya saja sudah sepanjang mata memandang sudah ribuan orang jadi saya harap KAA ini di Bandung lahir lagi semangat cinta Bandung gotong royong,keikhlasan ke ridhoan. Itu nilai rebolusi mental yang bagi saya paling mahal,” kata Emil panggilan akrabnya.
+								
+								<br>Dan ini menjadi even internasional yang didukung pemerintah pusat.  “Dan saya ingin imajunasi ini suatu hari akan lebih jauh lagi dan sejajar dengan rio karnival misalnya sebagai standar dunia,” pungkasnya.
+								
+								<br>Pada acara Asia Africa Carnival tersebut hadir parade kostum dari negara  Jordania, Mesir, India, Srilanka, Jepang, Korea Selatan, Korea Utara, Filipina,Myanmar,Kamboja, Thailand serta budaya dari dalam negeri seperti Solo, Bali, BanduNg, Jember.(lina).
+							</p>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- Akhir Modal -->
+					<!-- Modal -->
+					<div id="berita5" class="modal fade" role="dialog">
+						<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Jalan Asia Afrika Bandung Ditutup Siang Ini untuk Bukber di Jalan</h4>
+							</div>
+							<div class="modal-body">
+								<img src="img/5.jpg" alt="">
+							<p>Pemerintah Kota Bandung berencana menggelar Bubos alias Buka Bersama On The Street yang bakal dihadiri 10 ribu warga pada sore ini, Sabtu (17/6/2017). Acara diselenggarakan mulai pukul 15.30 WIB sampai pukul 18.30 WIB di Jalan Asia Afrika dan Braga Pendek.
+									
+								<br>"Silakan datang jika kesepian, kelaparan dan butuh kasih sayang. Hatur Nuhun," undang Wali Kota Bandung Ridwan Kamil lewat akun Instagramnya, Jumat, 16 Juni 2017. 
+								
+								<br>Bukber itu merupakan yang kedua kalinya diselenggarakan oleh Pemkot Bandung. Namun, kapasitas undangan lebih besar dari tahun lalu. Rencananya, acara bukber di jalan itu bakal menghadirkan musisi Afgan dan Cakra Khan sebagai bintang tamu.
+								
+								<br>Dalam acara yang terbuka untuk umum itu, pengunjung diharapkan tidak membawa kendaraan pribadi karena akan menyulitkan saat mencari tempat parkir. Selain itu, petugas akan memberlakukan penutupan jalan di wilayah itu mulai pukul 12.00 WIB dan pengalihan arus seperti car free night.
+								
+								<br>"Hayu wargi Bandung, urang buka puasa babarengan. Enggak usah bawa kendaraan,  biar enggak repot parkir. Naik Bus lebih seru. Yuk!" demikian ajakan di akun Instagram @humasbdg.
+								
+								<br>Dalam acara yang bakal dihadiri Wali Kota Bandung dan Wakil Wali Kota Oded M Danial itu, seluruh Kepala SKPD diwajibkan hadir dengan membawa serta anak yatim dan kaum duafa sebagai rangkaian dari kegiatan buka berkah ke 30 kecamatan.
+							</p>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- Akhir Modal -->
+					
+					<!-- Modal -->
+					<div id="berita6" class="modal fade" role="dialog">
+						<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Perayaan Tahun Baru 2017 Dipusatkan di Asia Afrika Bandung</h4>
+							</div>
+							<div class="modal-body">
+								<img src="img/6.jpg" alt="">
+							<p>Perayaan Tahun Baru 2017 di Kota Bandung, Jawa Barat, akan dipusatkan di Jalan Asia Afrika. Beragam acara kesenian dan budaya akan ditampilkan di sepanjang jalan tersebut.
+									
+								<br>Hal itu disampaikan oleh Walikota Bandung, Ridwan Kamil seusai menghadiri Anugerah Indeks Pariwisata di Jakarta, Selasa (6/12/2016). Acara tersebut juga berbarengan dengan kegiatan Rapat Koordinasi Nasional IV Kementerian Pariwisata 2016.
+								
+								<br>“Di (Jalan) Asia Afrika ada festival tahun baru. Seperti car free night tapi dikombinasikan dengan yang sifatnya religius seperti istighosah dan festival warga Bandung,” kata Emil.
+								
+								<br>Acara-acara budaya yang akan digelar di Jalan Asia Afrika diselenggarakan oleh pusat-pusat kebudayaan di Bandung. Acara-acara tersebut mencakup pertunjukan budaya tradisional dan modern dari Jawa Barat.
+								
+								<br>“Untuk puncak acara Tahun Baru, kan kami (Bandung) banyak tamannya. Nanti kami sebar ke taman-taman yang ada di Bandung. Tapi terpusatnya di Jalan Asia Afrika,” ujar Emil.
+								
+								<br>Perayaan Tahun Baru 2017 di Jalan Asia Afrika, lanjut Emil, nantinya juga akan diramaikan oleh deretan foodtruck. Hal itu dihadirkan lantaran masyarakat biasanya menghabiskan waktu dengan menikmati kuliner.
+							</p>
+							</div>
+						</div>
+						</div>
+					</div>
+				<!-- Akhir Modal -->
+						
+				<div id="myCarousel" class="carousel fdi-Carousel slide">
+					<div class="carousel fdi-Carousel slide" id="beritaCarousel" data-interval="0">
+						<div class="carousel-inner onebyone-carosel">
+							<div class="item active">
+								<div class="col-md-4">
+									<img src="img/1.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>Bandung Light Fest 2017</a></h4>
+										<p>Kota Bandung tidak henti-hentinya berkreasi. Contohnya dengan menggelar Bandung Lightfest 2017. Festival Cahaya dan parade kendaraan hias yang sudah memasuki tahun ketiga ini mengangkat sebuah tema Undersea atau hewan di bawah laut. Tema ini akan dikreasikan semenarik mungkin oleh para peserta ke dalam kendaraan hias.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita1">Read More >></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4">
+									<img src="img/2.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>BOTRAM 2017</a></h4>
+										<p>BOTRAM sendiri adalah singkatan dari Bandung Oto Trade Market. Dimana acara ini digagas atas kerjasama antara Pemerintah Kota Bandung dengan Daihatsu yang mengadakan acara festival bisnis. Dan acaranya diberi nama BOTRAM yang akan digelar pada 23-24 september 2017. Dimana acara ini diselenggarakan dalam rangka merayakan hari ulang tahun kota bandung yang ke 207 tahun. Sekaligus bentuk apresiasi dari Daihatsu dalam merayakan ulang tahunnya yang ke 110 tahun.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita2">Read More >></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4">
+									<img src="img/3.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>CFN Asia Afrika</a></h4>
+										<p>Sepanjang Jalan Dalem Kaum akan ditutup bagi arus lalu lintas selama gelaran uji coba kedua Car Free Night-Car Free Day (CFN-CFD) Asia Afrika pada Sabtu (30/5/2015). Kegiatan CFN-CFD Asia Afrika edisi kedua ini, rencananya akan dimulai pukul 18.00 hingga pukul 11.00 keesokan harinya.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita3">Read More>></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4">
+									<img src="img/4.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>Asia Afrika Carnival</a></h4>
+										<p>Asia Afrika Carnaval yang digelar di kota Bandung Sabtu (25/4)  menjadi annual event carnival (agenda tahunan) bagi Bandung.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita4">Read More>></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4">
+									<img src="img/5.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>Jalan Asia Afrika Bandung Ditutup Siang Ini untuk Bukber di Jalan</a></h4>
+										<p> Pemerintah Kota Bandung berencana menggelar Bubos alias Buka Bersama On The Street yang bakal dihadiri 10 ribu warga pada sore ini, Sabtu (17/6/2017). Acara diselenggarakan mulai pukul 15.30 WIB sampai pukul 18.30 WIB di Jalan Asia Afrika dan Braga Pendek.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita5">Read More>></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4">
+									<img src="img/6.jpg" class="img-responsive center-block"></a>
+									<div class="text-center">
+										<h4>Perayaan Tahun Baru 2017 Dipusatkan di Asia Afrika Bandung</a></h4>
+										<p>Perayaan Tahun Baru 2017 di Kota Bandung, Jawa Barat, akan dipusatkan di Jalan Asia Afrika. Beragam acara kesenian dan budaya akan ditampilkan di sepanjang jalan tersebut.</p>
+										<a href="#" class="read-more" data-toggle="modal" data-target="#berita6">Read More>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#beritaCarousel" data-slide="prev"> 
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#beritaCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
 		</section>
 		
-		<!-- From the event-->
+		<!-- Section berita-->
 		
 	
 		<!-- Contact -->
-		<section id="contact">
+		<section id="contact" class="section">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
