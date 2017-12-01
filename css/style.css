@@ -317,7 +317,6 @@ section h2 {
 @media (min-width: 60rem) {
 	.caption {
 		position: absolute;
-        z-index: 0;
         bottom: 1em;
         left: 1em;
         right: 1em;
