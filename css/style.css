@@ -44,7 +44,25 @@ hr{
     margin: 0 auto;
 }
 
-/* Section Navbar */
+/* Section Navbar
+.navbar-awal {
+	background-color: transparent;
+	border-color: transparent;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    height: auto;
+    z-index: 1;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+ul.navbar-nav li a{
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#ffffff !important;
+}*/
 .navbar {
     text-transform: uppercase;
     font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -201,8 +219,8 @@ section h2 {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
- 	background-image: url(../images/img.jpg);
- 	background-size: cover;
+    background-image: url(../images/img.jpg);
+    background-size: cover;
   background-attachment: fixed;
   background-position: center, center;
   background-repeat: no-repeat;
@@ -270,20 +288,49 @@ section h2 {
 	color: #ffffff;
 	padding-bottom: 50px;
 }
-#news p {
-	text-align: center;
+
+.caption {
+	position: absolute;
+	z-index: 0;
+	bottom: 0em;
+	left: 1em;
+	right: 1em;
+	color: white;
+    background: rgba(0,0,0,.6);
+	padding-bottom: 1em;
 }
+
+.caption h4 {
+	margin: 2em 0 0 0;
+}
+
+@media (min-width: 60rem) {
+	.caption {
+		position: absolute;
+        z-index: 0;
+        bottom: 1em;
+        left: 1em;
+        right: 1em;
+        color: white;
+        background: rgba(0,0,0,.6);
+        padding-bottom: 1em;
+	}
+}
+
 .carousel-inner img{
 	margin-bottom:15px;
 	width: 400px;
 	height: 300px;
 }
+
 .carousel-inner{
 	margin-bottom:30px;
 }
 .carousel-inner a{
-	text-decoration:none;
-	color:#ffffff;
+    font-size:15px;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+	text-transform:none;
 }
 
 .carousel-control.left,.carousel-control.right  {
@@ -293,10 +340,10 @@ section h2 {
 
 }
 .carousel-control.left {
-	left:-25px;
+	left:5px;
 }
 .carousel-control.right {
-	right:-25px;
+	right:5px;
 }
 .modal-content{
 	background-color: #284262;
@@ -335,7 +382,7 @@ section h2 {
 /* -------------------------------------*/
 footer {
   color: #fff;
-	background-color: #284262;
+  background-color: #284262;
   padding: 20px 0;
 }
 .social ul li{
@@ -359,6 +406,38 @@ footer {
 	font-size: 17px;
 	padding: 20px 0;
 }
+
+/*Blog*/
+
+.single-blog h3{
+	font-size:28px;
+	font-weight:bold;
+	margin-bottom:20px;
+	line-height:35px;
+}
+
+.single-blog{
+	margin-bottom:40px;
+}
+
+.blog-info{
+	padding:10px 5px;
+	overflow:hidden;
+}
+.blog-info ul{
+	float:left;
+}
+.blog-info ul li{
+	display:inline-block;
+	padding:0 10px;
+}
+
+.blog-info ul li a{
+	font-size:12px;
+	color:#414141;
+	text-transform:none;
+}
+
 /* Back to Top
 /* -------------------------------------*/
 #toTop {

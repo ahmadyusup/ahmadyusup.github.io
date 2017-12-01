@@ -68,7 +68,7 @@ $('.navbar-collapse ul li a').click(function() {
 // Reveal CSS Animations
 new WOW().init();
 
-jQuery(function( $ ){ //Prevent conflict - http://snipplr.com/view/43906/
+jQuery(function( $ ){
 
 // Back to Top
 	var scrollDiv = document.createElement("div");
