@@ -9,41 +9,21 @@ jQuery(document).ready(function($) {
     $('.bodymuncul').fadeIn(3500);
   });
 });
-$(document).ready(function() {
-	// Header Scroll
-	$(window).on('scroll', function() {
-		var scroll = $(window).scrollTop();
+/*Scroll atas navbar*/
 
-		if (scroll >= 50) {
-			$('.navbar-header').addClass('fixed');
-		} else {
-			$('.navbar-header').removeClass('fixed');
-		}
-	});
-	// Page Scroll
-	var sections = $('section')
-		nav = $('nav[role="collapse"]');
-
-	$(window).on('scroll', function () {
-	  	var cur_pos = $(this).scrollTop();
-	  	sections.each(function() {
-	    	var top = $(this).offset().top - 50
-	        	bottom = top + $(this).outerHeight();
-	    	if (cur_pos >= top && cur_pos <= bottom) {
-	      		nav.find('a').removeClass('active');
-	      		nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
-	    	}
-	  	});
-	});
-	nav.find('a').on('click', function () {
-	  	var $el = $(this)
-	    	id = $el.attr('href');
-		$('html, body').animate({
-			scrollTop: $(id).offset().top - 49
-		}, 500);
-	  return false;
-	});
-});
+$(document).ready(function(){
+    $(window).scroll(function() {//apakah terjadi scroll
+      if ($(document).scrollTop() > 150) { 
+        // jika scroll lebih dari 150px dari atas windows
+        $(".navbar-awal").css({"background-color":"#242d44","color": "#ffffff"}); 
+        $(".a-transparent").css({"background-color":"transparent","color": "transparent"});
+      } else {
+        $(".navbar-awal").css("background-color", "transparent"); 
+        $(".a-transparent").css({"background-color":"transparent","color": "transparent"});
+      }
+    });
+  });
+  
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {

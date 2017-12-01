@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.small {
@@ -44,7 +44,7 @@ hr{
     margin: 0 auto;
 }
 
-/* Section Navbar
+/* Section Navbar*/
 .navbar-awal {
 	background-color: transparent;
 	border-color: transparent;
@@ -52,21 +52,16 @@ hr{
     position: fixed;
     height: auto;
     z-index: 1;
-    padding: 20px 0px;
+    padding: 10px 0px;
     width: 100%;
 }
 
-ul.navbar-nav li a{
-	font-family: 'Roboto', sans-serif;
-	font-size:14px;
-	text-transform:uppercase;
-	font-weight:700;
-	color:#ffffff !important;
-}*/
+
 .navbar {
     text-transform: uppercase;
-    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    z-index: 1;
 }
 
 .navbar a:focus {
@@ -75,6 +70,17 @@ ul.navbar-nav li a{
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+}
+
+.navbar-inverse {
+    background-color: #284262;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    height: auto;
+    z-index: 1;
+    padding: 10px 0px;
+    width: 100%;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -92,11 +98,6 @@ ul.navbar-nav li a{
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #00FFFF;
 	background-color: transparent;
-}
-
-.navbar-default {
-    background-color: #2A3D56;
-    border-color: transparent;
 }
 
 .navbar-default,
@@ -203,8 +204,13 @@ section h2 {
 	color: #333333;
 }
 
+.about-text {
+    padding-top: 50px;
+}
+
 #about h2, #about p {
-	text-align: left;
+    text-align: left;
+    padding: 20px 0 20px 0;
 }
 
 #about a{
@@ -227,17 +233,18 @@ section h2 {
   background-color: #ffffff;
   color: #000000;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
  }
 
  #video .text .name {
-     padding-top: 100px;
+     padding-top: 50px;
+     padding-bottom: 50px;
      display: block;
      text-transform: uppercase;
      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
      font-size: 2em;
-     font-weight: 700;
+     font-weight: 750;
  }
  #banner .text .skills a {
      font-size: 1.25em;
@@ -262,8 +269,11 @@ section h2 {
      #video .text .name {
          font-size: 3em;
      }
+     #video .text .skills {
+        font-size: 3.5em;
+    }
  }
-/* Portfolio Styles */
+/* Gallery */
 
 #gallery {
   background-color: #284262;
