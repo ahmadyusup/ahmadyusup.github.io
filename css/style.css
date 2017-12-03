@@ -243,12 +243,12 @@ section h2 {
      display: block;
      text-transform: uppercase;
      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-     font-size: 2em;
+     font-size: 1.30em;
      font-weight: 750;
  }
  #banner .text .skills a {
-     font-size: 1.25em;
-     font-weight: 300;
+     font-size: 2em;
+     font-weight: 400;
  }
  .btn-play {
      color: red;
@@ -262,15 +262,15 @@ section h2 {
  }
  @media(min-width:768px) {
      #video .container {
-         padding-top: 100px;
-         padding-bottom: 100px;
+         padding-top: 90px;
+         padding-bottom: 90px;
      }
 
      #video .text .name {
          font-size: 3em;
      }
      #video .text .skills {
-        font-size: 3.5em;
+        font-size: 3em;
     }
  }
 /* Gallery */
@@ -337,7 +337,9 @@ section h2 {
 	color: #ffffff;
 	padding-bottom: 50px;
 }
-
+#news{
+    text-align: justify;
+}
 .judul {
 	position: absolute;
 	z-index: 0;
@@ -431,7 +433,7 @@ section h2 {
 footer {
   color: #fff;
   background-color: #284262;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .social ul li{
 	display:inline-block;
@@ -462,6 +464,9 @@ footer {
 	font-weight:bold;
 	margin-bottom:20px;
 	line-height:35px;
+}
+.single-blog img{
+    padding-top: 20px;
 }
 .map-responsive{
     overflow:hidden;
