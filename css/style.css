@@ -463,29 +463,19 @@ footer {
 	margin-bottom:20px;
 	line-height:35px;
 }
-
-.single-blog{
-	margin-bottom:40px;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
 }
-
-.blog-info{
-	padding:10px 5px;
-	overflow:hidden;
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
-.blog-info ul{
-	float:left;
-}
-.blog-info ul li{
-	display:inline-block;
-	padding:0 10px;
-}
-
-.blog-info ul li a{
-	font-size:12px;
-	color:#414141;
-	text-transform:none;
-}
-
 /* Back to Top
 /* -------------------------------------*/
 #toTop {
@@ -508,7 +498,6 @@ footer {
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	    filter: alpha(opacity=50);
 }
-
 /* Other Styles
 /* -------------------------------------*/
 .wow {

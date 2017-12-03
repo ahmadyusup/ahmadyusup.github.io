@@ -112,20 +112,3 @@ jQuery(function( $ ){
           }
       });
   });
-  function toggle() {
-
-  var ele = document.getElementById("sembunyikan");
-
-  var text = document.getElementById("penampakan");
-
-  if(ele.style.display == "block") {
-
-  ele.style.display = "none";
-  text.innerHTML = "Show All";
-
-  }
-  else {
-  ele.style.display = "block";
-  text.innerHTML = "Hide All";
-  }
-  }
